@@ -15,7 +15,7 @@ app.get('/clarke', (req, res) => res.sendFile(path.join(__dirname, 'views', 'cla
 app.get('/hamilton', (req, res) => res.sendFile(path.join(__dirname, 'views', 'hamilton.html')));
 app.get('/hopper', (req, res) => res.sendFile(path.join(__dirname, 'views', 'hopper.html')));
 app.get('/lovelace', (req, res) => res.sendFile(path.join(__dirname, 'views', 'lovelace.html')));
-app.get('/turing->', (req, res) => res.sendFile(path.join(__dirname, 'views', 'turing.html')));
+app.get('/turing', (req, res) => res.sendFile(path.join(__dirname, 'views', 'turing.html')));
 
 
 app.listen(port, () => console.log('Server running in http://localhost:' + port));
